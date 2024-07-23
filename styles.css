@@ -1,0 +1,220 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header{
+    display:flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 300px;
+}
+
+.logoContainer{
+    width: 120px;
+    height:120px;
+    overflow: hidden;
+    padding:15px 10px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: center;
+    flex-shrink: 0;
+    border-radius:8px;
+}
+
+
+.cookiePic{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    flex-shrink: 0;
+    border-radius:8px;
+}
+
+
+
+.headerLinks{
+    display:flex;
+    gap: 8px;
+}
+
+p{
+    color:#E5E7EB;
+    margin:0;
+    padding:0;
+}
+
+.headerLinks a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin:0;
+    padding:0;
+}
+
+li:hover{
+    background-color: black;
+    padding: 5px 5px;
+    border-radius:8px;
+
+}
+
+.content{
+    background-color: #1f2937;
+    display: flex;
+    padding: 80px 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contextText{
+    max-width: 350px;
+}
+
+.button{
+    margin-top:10px;
+    background-color: burlywood;
+    border-radius: 6px;
+    padding: 10px 8px;
+    border: darkslateblue;
+}
+
+.contentImageHolder{
+    width: 700px;
+    height:300px;
+    /* border: 1px solid #eee; */
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #1f2937;
+}
+
+.contentImage{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: center;
+    flex-shrink: 0;
+    border-radius:8px;
+}
+
+.cookiesOnTray{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+}
+
+.orderMenu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+    padding: 80px;
+}
+.cookie{
+    display: flex;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    padding:24px;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#headerCookie{
+    text-align: center;
+}
+
+.testimonial{
+    display:flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.testimonialContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:20px;
+}
+
+.meraki{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    margin:0;
+    padding:0;
+}
+
+.socialMediaIcons{
+    text-decoration: none;
+    font-size: 28px;
+    color:#111;
+    gap:8px;
+}
+
+i{
+    color:#111;
+}
+
+#footer{
+    font-size:28px;
+    color:black;
+    max-width: 350px;
+}
+
+#footerP{
+    font-size:16px;
+    color:black;
+    text-align: center;
+}
+
+#headerCookie{
+    font-size: 36px;
+    font-weight: bold;
+    color:#1f2937;
+    margin:0;
+    padding-top:80px;
+}
+
+#fb:hover{
+    color: #3b5998;
+    transition: color 0.3s ease;
+}
+#insta:hover{
+    color: #c13584;
+    transition: color 0.3s ease;
+}
+
+#yt:hover{
+    color: #FF0000;
+    transition: color 0.3s ease;
+}
+
