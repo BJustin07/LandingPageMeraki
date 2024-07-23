@@ -17,6 +17,14 @@ html {
     padding: 0px 300px;
 }
 
+.footer{
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    align-items: center;
+    text-align: center;
+}
+
 .logoContainer{
     width: 120px;
     height:120px;
